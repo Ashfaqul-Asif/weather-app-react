@@ -30,11 +30,12 @@ const Search = ({ suggestions, onSearch }) => {
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Search input"
+          label="Search city or any location name"
           InputProps={{
             ...params.InputProps,
             type: "search",
           }}
+          style={{ backgroundColor: "white" }}
         />
       )}
     />
